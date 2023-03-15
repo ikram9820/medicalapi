@@ -14,6 +14,7 @@ $ pip install -r requirements.txt
 $ django-admin startproject projectname
 
 $ cd projectname/
+$ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
 ```
